@@ -1,0 +1,64 @@
+<?php
+$dbname="lifeline";
+if ($con=mysql_connect("localhost","root","") )
+{
+//print "DB Connected" . "<br />\n";
+}
+else
+{
+print "DB not connected" . mysql_error() .  "<br />\n";
+die();
+}
+if (mysql_select_db($dbname , $con) )
+{
+//print "DB Used" . "<br />\n";
+}
+else
+{
+print "DB not Used : " . mysql_error() . "<br />\n" ;
+}
+
+
+$patientid=$_POST['patientid'];
+$password=$_POST['password'];
+$flag=0;
+
+
+$data=mysql_query("select patient_id,patient_pwd from patient;");
+
+
+while( $rowdata=mysql_fetch_array($data) )
+   {
+
+              if(($rowdata['patient_id']==$patientid) && ($rowdata['patient_pwd']==$password))
+              {
+                   $flag=1;
+              }
+    else
+    {
+    $flag=0;
+    }
+}
+if($flag==1)
+header('Location: patient.php');
+if($flag==0)
+header('Location: patientlogin.php');
+//echo "DB Searched" . "<br />\n";
+
+
+
+
+
+if ( mysql_close($con) )
+{
+//print "DB closed" . "<br />\n";
+}
+else
+{
+print "DB not Closed : " . mysql_error() . "<br />\n" ;
+}
+
+
+?>
+
+
