@@ -1,0 +1,13 @@
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href='style1.css' />
+</head>
+<body>
+<a id="k" href="adminhome.php" target="window">HOME</a><br/><br/><br/>
+<a  id="k" href="managedept.php" target="window">DEPARTMENT</a><br/><br/><br/>
+<a  id="k" href="managestaff.php" target="window">STAFF</a><br/><br/><br/>
+<a  id="k" href="managepatient.php" target="window">PATIENT</a><br/><br/><br/>
+
+
+</body>
+</html>
