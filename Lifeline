@@ -1,0 +1,52 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css" />
+</head>
+<body id= "margin">
+
+<img id="lg" src="logo1.jpeg" width="150" height="100" />
+<h1 id="st">LIFE-LINE HOSPITAL</h1> 
+<br/><br/><br/>
+<fieldset id="frame"> 
+<form>
+<table cellpadding="8px" cellspacing="1">
+<tr>
+<th id="menu"><a class="back" href="lifeline.php" target="_blank">Home</a> </th>
+<th id="menu"><a class="back" href="login.php" target="_blank" >Staff login</a></th>
+<th id="menu"><a class="back" href="patientlogin.php" target="_blank" >Patient login</a></th>
+</tr>
+</table>
+</form>
+</fieldset>
+
+<table cellpadding="8px"  cellspacing="1">
+<tr>
+<td>
+<fieldset id="frame3"> 
+<legend>News updates and Achievement</legend>
+<table  >
+<br/>
+<tr width="300" height="20"  > <a id="k" href="">National Nursing conference 17-18 jan</tr></a><br/><br/><br/>
+<tr width="300" height="20" ><a id="k"  href="">
+Jun 2010-AM Award for Dr.Nitin Verma, batch of 1974 </tr></a><br/><br/><br/>
+<tr width="300" height="20" ><a id="k"  href="" >23 Mar 2010-Award for Dr Ernest Lall, batch of 1949 </tr></a><br/><br/><br/>
+<tr width="300" height="20" ><a  id="k" href="">09 May 2009-Award for Dr. Mary Ganguli Competition</tr></a><br/><br/><br/>
+</table>
+
+
+</fieldset>
+</td>
+<td>
+</fieldset>
+<fieldset id="frame5"> 
+<legend>Infrastructure</legend>
+<img src="ic.jpg"  width="480" height="340" />
+</td>
+</tr>
+</table>
+
+</fieldset>
+
+
+</body>
+</html>
