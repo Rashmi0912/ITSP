@@ -1,0 +1,11 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css" />
+</head>
+<body id= "margin">
+
+<img src="logo1.jpeg" width="150" height="100" />
+<h1 id="st">LIFE-LINE HOSPITAL</h1>
+</br></br></br></br><h1 style="color:#006666;">WELCOME TO LIFELINE HOSPITAL</h1>
+</body>
+</html>
